@@ -1,0 +1,47 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/birthday"/>
+
+    <TextView
+        android:text="@string/happy_birthday"
+        android:id="@+id/card_greeting"
+        android:textSize="60sp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:fontFamily="cursive"
+        android:textColor="#ADE2F6"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From Soham"
+        android:fontFamily="serif"
+        android:textSize="35sp"
+        android:padding="15dp"
+        android:textColor="#3CD3F4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/card_greeting"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="casual"
+        android:text="My Friend"
+        android:textColor="#E89E26"
+        android:textSize="60sp" />
+
+</RelativeLayout>
